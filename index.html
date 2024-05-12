@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar(Kọ́jọ́dá)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="light">
+
+    <div class="calendar">
+        <div class="calendar-header">
+            <span class="month-picker" id="month-picker">February</span>
+            <div class="year-picker">
+                <span class="year-change" id="prev-year">
+                    <pre>&lt;</pre>
+                </span>
+                <span id="year">2021</span>
+                <span class="year-change" id="next-year">
+                    <pre>&gt;</pre>
+                </span>
+            </div>
+        </div>
+        <div class="calendar-body">
+            <div class="calendar-week-day">
+                <div>Àìkú<br>(Mon)</div>
+                <div>Ajé<br>(Tue)</div>
+                <div>Ìṣégun<br>(Wed)</div>
+                <div>Ọjọ́rú<br>(Thu)</div>
+                <div>Ọjọ́bọ̀<br>(Fri)</div>
+                <div>Ẹtì<br>(Sat)</div>
+                <div>Àbámẹ́ta<br>(Sun)</div>
+            </div>
+            <div class="calendar-days"></div>
+        </div>
+        <div class="calendar-footer">
+            <div class="toggle">
+                <span>Dark Mode</span>
+                <div class="dark-mode-switch">
+                    <div class="dark-mode-switch-ident"></div>
+                </div>
+            </div>
+        </div>
+        <div class="month-list"></div>
+    </div>
+
+    <div>Designed By Anúolúwapọ̀</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
